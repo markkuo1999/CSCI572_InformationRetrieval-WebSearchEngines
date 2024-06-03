@@ -1,0 +1,42 @@
+Name: Zong-Ying Kuo 
+USC ID: 5009017133 
+News site crawled: latimes.com 
+Number of threads: 17  
+
+Note: I switched to latimes because I faced difficulties accessing the Wall Street Journal despite multiple attempts.
+
+Fetch Statistics 
+================ 
+# fetches attempted: 19995
+# fetches succeeded: 19464
+# fetches failed or aborted: 531
+
+Outgoing URLs: 
+============== 
+Total URLs extracted: 1721073 (I used python to open urls_latimes.csv and found that the total number of URLs exceeds what I observed in the actual CSV file.)
+# unique URLs extracted: 367519
+# unique URLs within News Site: 207266
+# unique URLs outside News Site: 160253
+
+Status Codes: 
+============= 
+200 OK: 19677 (The count of urls with status code 200 in fetch_latimes.csv is more than the count in visit_latimes.csv, and the reason remains unclear.)
+301 Moved Permanently: 117
+302: 27
+307: 128
+404 Not Found: 46
+ 
+File Sizes: 
+=========== 
+< 1KB: 77
+1KB ~ <10KB: 348
+10KB ~ <100KB: 567
+100KB ~ <1MB: 18455
+>= 1MB: 17
+
+Content Types: 
+============== 
+text/html: 18772
+image/jpeg: 305
+image/webp: 23
+image/png: 364

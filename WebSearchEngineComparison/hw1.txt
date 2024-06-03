@@ -1,0 +1,2 @@
+In conclusion, the result of Yahoo is totally not similar to the result of Google. 
+The average percent overlap is only 21%, and the average Spearman coefficient is an negative number, which is -4.595142857
